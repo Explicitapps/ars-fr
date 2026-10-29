@@ -1,0 +1,69 @@
+{
+    "label": "Effets ARS",
+    "entries": {
+        "arsEffectCharg01": {
+            "name": "Charge",
+            "description": "<p>L'acteur gagne +1 pour toucher mais perd 2 points de CA et ses modificateurs de Dextérité pendant la charge.</p>"
+        },
+        "arsEffectHaste01": {
+            "name": "Rapidité",
+            "description": "<p>La cible se déplace deux fois plus vite et fait deux fois plus d'attaques au corps à corps par round. Le gestionnaire de combat d'ARS lit l'état « haste » pour doubler le nombre d'attaques de chaque emplacement.</p>"
+        },
+        "arsEffectSlow001": {
+            "name": "Lenteur",
+            "description": "<p>La cible se déplace deux fois moins vite, fait deux fois moins d'attaques au corps à corps (arrondi à l'inférieur, jusqu'à 0) et subit un malus de +4 à la CA. Le gestionnaire de combat d'ARS lit l'état « slow » pour diviser par deux le nombre d'attaques de chaque emplacement.</p>"
+        },
+        "arsEffectInvis01": {
+            "name": "Invisibilité",
+            "description": "<p>La cible est invisible à la vue normale. Ses assaillants subissent un malus de -4 pour la toucher (représenté par un bonus de -4 à sa CA tant qu'elle est invisible).</p>"
+        },
+        "arsEffectProne01": {
+            "name": "À terre",
+            "description": "<p>La cible est allongée au sol. Se relever coûte du déplacement ; selon les règles de la variante choisie, les attaquants au corps à corps ont des bonus et les attaquants à distance des malus contre une cible à terre.</p>"
+        },
+        "arsEffectStun001": {
+            "name": "Étourdi",
+            "description": "<p>La cible est étourdie et ne peut pas agir efficacement. Elle perd son bonus de Dextérité à la CA et ne peut ni attaquer ni lancer de sorts.</p>"
+        },
+        "arsEffectBlind01": {
+            "name": "Aveuglé",
+            "description": "<p>La cible ne voit plus. Ses attaques subissent un malus de -4 pour toucher, et les attaques contre elle ont un bonus de +4 (représenté ici par une CA moins bonne de 4).</p>"
+        },
+        "arsEffectBurn001": {
+            "name": "En feu",
+            "description": "<p>La cible brûle et subit des dégâts de feu à chaque round jusqu'à ce que le feu soit éteint.</p>"
+        },
+        "arsEffectBleed01": {
+            "name": "Saignement",
+            "description": "<p>La cible saigne et subit des dégâts à chaque round jusqu'à ce qu'elle soit bandée ou soignée.</p>"
+        },
+        "arsEffectFear001": {
+            "name": "Peur",
+            "description": "<p>La cible est saisie de peur : selon la décision du MD, elle peut fuir, subir des malus d'attaque ou être incapable d'agir.</p>"
+        },
+        "arsEffectParal01": {
+            "name": "Paralysie",
+            "description": "<p>La cible est paralysée et ne peut ni bouger ni agir. Ses assaillants peuvent la frapper automatiquement.</p>"
+        },
+        "arsEffectDisea01": {
+            "name": "Maladie",
+            "description": "<p>La cible est atteinte d'une maladie. Les effets dépendent de la maladie : voyez avec le MD.</p>"
+        },
+        "arsEffectRestr01": {
+            "name": "Entravé",
+            "description": "<p>La cible est entravée et ne peut pas bouger. Elle perd ses bonus de Dextérité à la CA, et ses assaillants au corps à corps ont des modificateurs en leur faveur.</p>"
+        },
+        "arsEffectStagr01": {
+            "name": "Chancelant",
+            "description": "<p>La cible chancelle et agit moins efficacement : en général, elle perd des actions ou subit des malus d'attaque.</p>"
+        },
+        "arsEffectLantn01": {
+            "name": "Lumière de lanterne",
+            "description": "<p>La cible est éclairée par une lanterne, ce qui permet de mieux voir dans l'obscurité.</p>"
+        },
+        "arsEffectTorch01": {
+            "name": "Lumière de torche",
+            "description": "<p>La cible est éclairée par une torche, ce qui permet de mieux voir dans l'obscurité.</p>"
+        }
+    }
+}

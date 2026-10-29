@@ -1,0 +1,11 @@
+{
+    "name": "ars-fr",
+    "private": true,
+    "version": "0.1.0",
+    "type": "module",
+    "license": "GPL-3.0-or-later",
+    "scripts": {
+        "test": "node --test tests/",
+        "diff-en": "node tools/diff-en.mjs"
+    }
+}

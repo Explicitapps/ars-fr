@@ -1,0 +1,69 @@
+{
+    "_comment": "Stable Foundry _id registry for the ars-effects pack. Never delete or regenerate existing entries - doing so breaks UUIDs for any user bookmarks, links, and dragged-from-compendium references. Add new entries by appending. All IDs must be exactly 16 alphanumeric characters (Foundry isValidId requirement).",
+    "effects": {
+        "haste": {
+            "id": "arsEffectHaste01",
+            "name": "Haste"
+        },
+        "slow": {
+            "id": "arsEffectSlow001",
+            "name": "Slow"
+        },
+        "invisibility": {
+            "id": "arsEffectInvis01",
+            "name": "Invisibility"
+        },
+        "prone": {
+            "id": "arsEffectProne01",
+            "name": "Prone"
+        },
+        "stunned": {
+            "id": "arsEffectStun001",
+            "name": "Stunned"
+        },
+        "blinded": {
+            "id": "arsEffectBlind01",
+            "name": "Blinded"
+        },
+        "charge": {
+            "id": "arsEffectCharg01",
+            "name": "Charging"
+        },
+        "burning": {
+            "id": "arsEffectBurn001",
+            "name": "Burning"
+        },
+        "bleeding": {
+            "id": "arsEffectBleed01",
+            "name": "Bleeding"
+        },
+        "fear": {
+            "id": "arsEffectFear001",
+            "name": "Fear"
+        },
+        "paralysis": {
+            "id": "arsEffectParal01",
+            "name": "Paralysis"
+        },
+        "disease": {
+            "id": "arsEffectDisea01",
+            "name": "Disease"
+        },
+        "restrain": {
+            "id": "arsEffectRestr01",
+            "name": "Restrain"
+        },
+        "staggered": {
+            "id": "arsEffectStagr01",
+            "name": "Staggered"
+        },
+        "lantern-light": {
+            "id": "arsEffectLantn01",
+            "name": "Lantern Light"
+        },
+        "torch-light": {
+            "id": "arsEffectTorch01",
+            "name": "Torch Light"
+        }
+    }
+}
