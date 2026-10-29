@@ -10,8 +10,11 @@ jobs:
   publier:
     runs-on: ubuntu-latest
     steps:
-      - uses: actions/checkout@v4
-      - run: node --test tests/
+      - uses: actions/checkout@v5
+      - uses: actions/setup-node@v5
+        with:
+          node-version: 24
+      - run: node --test tests/*.test.mjs
       - name: module.json de la release
         env:
           TAG: ${{ github.event.release.tag_name }}
